@@ -15,4 +15,8 @@
   2. Elasticity
   3. Cost Management
 
-* **SCALABILITY: **
+* **SCALABILITY:** scalable infrastrure is able to handle an increased demand of the application by automatically adding resources.
+  * This is achieved in AWS by increasing number of virtual machines (or *instances* as said by AWS)
+* **ELASTICITY:** resources can be automatically deallocated when demand has decreased, this improves costs and efficiency of resources
+* **COST MANAGEMENT:** reduced upfront costs, small incremental expenditure reduces risk. New hardware requirements can be achieved in minutes.
+  * AWS provides a calculator to see how much AWS will cost in comparison to a data center: http://calculator.aws/#.
