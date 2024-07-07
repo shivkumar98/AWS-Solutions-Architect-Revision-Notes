@@ -1,23 +1,23 @@
-# Chapter 1 - Review Questions Attempt #
+# Chapter 1 - Review Questions Attempt 2
 
 ## Results:
 
-* Date: 
-* Score: 
+* Date: 07/07/2024
+* Score: 11/11 (100%)
 
 | Question # | Correct  |
 | ---------- | -------  |
-| 1          |          |
-| 2          |          |
-| 3          |          |
-| 4          |          |
-| 5          |          |
-| 6          |          |
-| 7          |          |
-| 8          |          |
-| 9          |          |
-| 10         |          |
-| 11         |          |
+| 1          |  ✅        |
+| 2          |  ✅        |
+| 3          |  ✅        |
+| 4          |  ✅        |
+| 5          |  ✅        |
+| 6          |  ✅        |
+| 7          |  ✅        |
+| 8          |  ✅        |
+| 9          |  ✅        |
+| 10         |  ✅        |
+| 11         |  ✅        |
 
 ## 🟧 Question 1
 
@@ -32,7 +32,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **B**✅✅✅✅
 </details>
 
 <hr>
@@ -51,7 +51,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **A**✅✅✅✅
 </details>
 
 <hr>
@@ -68,7 +68,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **D**✅✅✅✅
 </details>
 <hr>
 
@@ -85,7 +85,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **A,C**✅✅✅✅
 </details>
 <hr>
 
@@ -101,7 +101,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **C**✅✅✅✅
 </details>
 <hr>
 
@@ -117,7 +117,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **D**✅✅✅✅
 </details>
 <hr>
 
@@ -133,7 +133,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **A**✅✅✅✅
 </details>
 <hr>
 
@@ -149,7 +149,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **B**✅✅✅✅
 </details>
 
 <hr>
@@ -167,7 +167,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **C**✅✅✅✅
 </details>
 <hr>
 
@@ -183,7 +183,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **B**✅✅✅✅
 </details>
 <hr>
 
@@ -199,6 +199,6 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **A**✅✅✅✅
 </details>
 <hr>
