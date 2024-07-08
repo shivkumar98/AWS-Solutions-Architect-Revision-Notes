@@ -1,12 +1,12 @@
 # 🏋️ Exercise 1.1 Use the AWS CLI 🏋️
 
-## Description
+## ✏️ Description ✏️
 * Install (if necessary) and configure the AWS CLI on your local system and demonstrate
 it’s running properly by listing the buckets that currently exist in your account. For extra
 practice, create an S3 bucket and then copy a simple file or document from your machine
 to your new bucket. From the browser console, confirm that the file reached its target.
 
-## Solution
+## ✅ Solution ✅
 * I configured the AWS CLI in the command prompt using `aws configure`
 * I am asked to provide the following:
 ```
