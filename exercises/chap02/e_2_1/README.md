@@ -37,3 +37,12 @@ ssh -i "new-key-pair.pem" ec2-user@ec2-11-111-111-11.eu-west-2.compute.amazonaws
 * I then get asked if I want to connect, and I confirm
 * I see a bird in the console which confirms I've connected
 ![](../screenshots/2024-07-12-08-20-25.png)
+
+<hr>
+
+## 🟥 Congifuring Instance Behavior
+* Using `user data` (found in instance configuration) you can execute commands on your instance as it bootups - this known as bootstrapping
+* You can use scripts to bring your instance to a desired state.
+* You can use simple commands to install a web server and setup its root
+* Or you can use `Puppet Enterprise` as a working node.
+
