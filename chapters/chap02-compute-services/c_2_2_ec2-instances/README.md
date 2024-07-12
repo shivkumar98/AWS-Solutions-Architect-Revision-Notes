@@ -85,8 +85,8 @@ Here is a brief description of the instance type families:
 
 
 * I work on the following exercises:
-   - [Exercise 2.1 Launch an EC2 Linux Instance and Login Using SSH](/exercises/chap02/e_2_1/) 
-   - [Exercise 2.2 Access the Free Capacity of a Running Instance and Change It's Instance Type](/exercises/chap02/e_2_2/)
+   - [🏋️ Exercise 2.1 Launch an EC2 Linux Instance and Login Using SSH 🏋️](/exercises/chap02/e_2_1/) 
+   - [🏋️ Exercise 2.2 Access the Free Capacity of a Running Instance and Change It's Instance Type 🏋️](/exercises/chap02/e_2_2/)
 
 
 <hr>
@@ -106,3 +106,26 @@ Here is a brief description of the instance type families:
 1. `Cluster` groups - this will launch each instance into a SINGLE AZ within close proximity to each other. This is ideal for low latency networking
 2. `Spread` groups - this is ideal for reliability and availability of servers. Instances are spread across distinct hardware racks and even AZs to mitigate risk of data failure or service loss.
 3. `Partition` groups - partitioned instances are instances which are associated with each other but kept physically seperate from other partitions.
+
+
+<hr>
+
+## 🟥 Instance Pricing
+* There are 2 pricing models for EC2 instances:
+   1. `On Demand` - for deployments less than 12 months, this is the most expensive option
+   2. `Reserved Instance` (Savings Plans)- this is a reservation between 1-3 years.
+
+* Amazon's spot market can save you even more money, you can specify a bid and your instance will automatically be launched if a spot is available below or equal to your bid
+* I will learn more about this in chapter 13
+* I work on [🏋️ Exercise 2.3 Assess Which Pricing Model Will Best Meet the Needs of a Deployment 🏋️](/exercises/chap02/e_2_3/)
+<hr>
+
+## 🟥 Instance Life Cycle
+
+<hr>
+
+## 🟥 Resource Tags
+
+<hr>
+
+## 🟥 Service Limits
