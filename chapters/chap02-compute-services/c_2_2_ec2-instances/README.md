@@ -87,3 +87,22 @@ Here is a brief description of the instance type families:
 * I work on the following exercises:
    - [Exercise 2.1 Launch an EC2 Linux Instance and Login Using SSH](/exercises/chap02/e_2_1/) 
    - [Exercise 2.2 Access the Free Capacity of a Running Instance and Change It's Instance Type](/exercises/chap02/e_2_2/)
+
+
+<hr>
+
+## 🟥 Configuring Instance Behavior
+* Using `user data` (found in instance configuration) you can execute commands on your instance as it bootups - this known as bootstrapping
+* You can use scripts to bring your instance to a desired state.
+* You can use simple commands to install a web server and setup its root
+* Or you can use `Puppet Enterprise` as a working node.
+
+<hr>
+
+## 🟥 Placement Groups
+* AWS will create a default profile which attempts to spread your instances across AWS's infrastructure which is optimal for MOST use cases.
+* AWS `Placement Groups` allow you to specify nonstandard profile to meet your needs.
+* There are three kinds of placement groups:
+1. `Cluster` groups - this will launch each instance into a SINGLE AZ within close proximity to each other. This is ideal for low latency networking
+2. `Spread` groups - this is ideal for reliability and availability of servers. Instances are spread across distinct hardware racks and even AZs to mitigate risk of data failure or service loss.
+3. `Partition` groups - partitioned instances are instances which are associated with each other but kept physically seperate from other partitions.
