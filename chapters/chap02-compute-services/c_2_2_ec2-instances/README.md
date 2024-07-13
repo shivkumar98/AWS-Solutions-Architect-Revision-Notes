@@ -121,7 +121,14 @@ Here is a brief description of the instance type families:
 <hr>
 
 ## 🟥 Instance Life Cycle
-
+* The state of a EC2 instance running can be managed in differrent ways.
+* Terminating an instance will shut down the instance and release its resources to the general AWS pool
+   - In most cases, terminating will destroy all data keptr on primary storage - execeptr for EBS volumes which always persists.
+* Stopping the instance and restarting it can be a cost savings effective way of "pausing" the instance - however any storage on instance volume is lost
+* I will learn about EBS and instance store volumes later into this chapter
+* I need to be aware that the public IP address is non-persistent
+   - If you need a known IP address which stays the same after restarts, you can allocate an elastic IPP address and associate it with the instance.
+* The instance's security group can be updated even when the instance is running. Modifying the instance type requires stopping the instance
 <hr>
 
 ## 🟥 Resource Tags
