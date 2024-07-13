@@ -151,3 +151,7 @@ Here is a brief description of the instance type families:
 <hr>
 
 ## 🟥 Service Limits
+* Each AWS account haas limits to the number of instances it can launch by default.
+* Thesel imits can apply to single region or globally
+* E.g. you are only allowed 5 VPCs per region and 500 SSH key pairs across your account.
+* You can ask AWS to raise these limits
