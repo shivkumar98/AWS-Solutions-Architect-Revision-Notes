@@ -33,6 +33,12 @@
 * You can create an AMI image directly from a running instance - to avoid losing data, thhe instance should be shut down first
 * EBS volumes can be encrypted to protect their data.
 * I work on [Exercise 2.4](/exercises/chap02/e_2_4/) which walks through how to launch a new instance based on an existing snapshot
+
 <hr>
 
 ## 🟥 Instance Store Volumes
+* Instance volumes are ephemeral - when the attached-to instance is shutdown, the data is permanently lost
+* Here are reasons why you would store data on instance store volume over EBS:
+   - These are SSDs which are physically attached to the server hosting the instance via NVME, hence are very fast
+   - This is included in the pricing model, so it is ideal for temporary and disposable data.
+* The number of instance store volumes is dependent on the instance type.
