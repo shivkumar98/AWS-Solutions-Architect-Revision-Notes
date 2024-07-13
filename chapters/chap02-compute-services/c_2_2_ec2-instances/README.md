@@ -132,6 +132,21 @@ Here is a brief description of the instance type families:
 <hr>
 
 ## 🟥 Resource Tags
+* Tags are keys with optional values which can be applied to any AWS resource in your account
+* It is best to establish a consistent naming convention and apply it to tags
+* You can apply the tag `production-server` to each element of production deployment
+   - You can use `production-server` as keys, and then use the value to signify the resource (see table below as an example)
+
+| Key             | Value           |
+|-----------------|-----------------|
+| `production-server` | `server1`   |
+| `production-server` | `server2`  |
+| `production-server` | `security-group1` |
+| `staging-server`    | `server1` |
+| `staging-server`    | `server2` |
+| `staging-server` | `security-group1` |
+| `test-server` | `server1`  |
+| `test-server` | `security-group1` |
 
 <hr>
 
