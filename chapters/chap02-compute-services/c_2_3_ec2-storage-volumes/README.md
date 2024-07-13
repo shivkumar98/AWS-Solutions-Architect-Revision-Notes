@@ -3,6 +3,8 @@
 * From the perspective of the OS, the volume is same as a normal physical drive
 * There are different types of AWS volumes
 
+<br>
+
 ## 🟥 Elastic Block Store Volumes
 * Elastic Block Store (EBS) volumes can be attached to at most one instance at a time - but you can attach multiple volumes to a single instance.
 * These can be used exactly as you would you use a USB flash drive, HDDs you would use for a physical server.
