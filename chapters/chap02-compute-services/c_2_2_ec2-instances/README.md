@@ -2,6 +2,8 @@
 
 * Like a physical server, you will have access to storage, memory and a network interface.
 
+<hr>
+
 ## 🟥 Provisioning Your Instance
 * Before launching your instance, you must configure it's storage, hardware, operating system.
 * The **Amazon Machine Image (AMI)** determines the operating system.
