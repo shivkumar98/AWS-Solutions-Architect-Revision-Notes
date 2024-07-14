@@ -14,3 +14,4 @@
    - [🧠 2.1 Introduction](/chapters/chap02-compute-services/c_2_1_introduction/)
    - [🧠 2.2 EC2 Instances](/chapters/chap02-compute-services/c_2_2_ec2-instances/)
    - [🧠 2.3 EC2 Storage Volumes](/chapters/chap02-compute-services/c_2_3_ec2-storage-volumes/)
+   - [🧠 2.4 Accessing Your EC2 Instance](/chapters/chap02-compute-services/c_2_4_accessing-your-ec2-instance/)
