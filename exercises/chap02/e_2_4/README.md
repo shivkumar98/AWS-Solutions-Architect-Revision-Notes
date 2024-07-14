@@ -16,10 +16,10 @@
 test.txt
 ```
 * I stop my instance, and click on `Create image`:
-![](2024-07-13-11-39-23.png)
+![](../screenshots/2024-07-13-11-39-23.png)
 
 * I am shown the `Create image` wizard whichh taken a snapshot of the EBS volume:
-![](2024-07-13-11-41-00.png)
+![](../screenshots/2024-07-13-11-41-00.png)
 * I name the image and click `Create image` button
 
 <br>

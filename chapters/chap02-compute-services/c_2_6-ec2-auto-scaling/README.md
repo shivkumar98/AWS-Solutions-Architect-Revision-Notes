@@ -31,6 +31,12 @@
 <hr>
 
 ## 🟥 Launch Templates
+* Launch templates are more versatile - it can be both used for auto scaling and manually spin up a fleet
+* Launch templates havce versioning, any time you update the template, AWS automatically creates a new version.
+
+<br>
+
+* I work on [Exercise 2.5 - Create a Launch Template](/exercises/chap02/e_2_5/)
 
 <hr>
 
