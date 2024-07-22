@@ -11,7 +11,6 @@
 * Both of these allow you to configure parameters/scripts run on the instances when launchhed.
 * Launch templates are newer than launch configurations
 
-<br>
 
 ## 🟥 Launch Configurations
 * Launch configurations are based on already created instance
@@ -35,8 +34,6 @@
 ## 🟥 Launch Templates
 * Launch templates are more versatile - it can be both used for auto scaling and manually spin up a fleet
 * Launch templates havce versioning, any time you update the template, AWS automatically creates a new version.
-
-<br>
 
 * I work on [Exercise 2.5 - Create a Launch Template](/exercises/chap02/e_2_5/)
 
@@ -66,6 +63,8 @@
    2. `Maximum` - the number of healthy instance will not go above this value
    3. `Desired Capacity` - this is an optional setting
 
+<hr>
+
 ## 🟥 Auto Scaling Options
 * An Auto Scaling Group enables you to maintain a desired minimum number of instances.
 * Auto Scaling also offers other options to scale out the number of instances to meet demand
@@ -89,7 +88,43 @@
   * If it takes too long, Auto scaling can spin up new instances.
 * Dynamic scaling policies work by monitoring a CloudWatch alarm
   * There are three dynamic scaling policies: simple, step and target tracking
+  
+### 🟡 Simple Scaling Policies
+* With simple scaling policies, whenever a metric goes above threadhold, Auto Scaling will increase the desired capacity.
+* The amount it increases depends on ADJUSTMENT TYPE:
+   1. `ChangeInCapacity` - increases desired capacity by specified value
+   2. `ExcactCapacity` - will set desired capacity to value regardless of existing value
+   3. `PercentageChangeInCapacity` - increase desired capacity by percentage of existing value
+* When Auto Scaling adjustment, it will wait a cooldown period before execuuting the policy again
+  * **Default cooldown is 300 seconds**, but it can also be set `0` to disable it
+* Auto Scaling will NEVER let capacity exceed maximum capacity
 
+### 🟡 Step Scaling Policies
+* Step scaling enables you to scale out your instances based on a metric from cloudwatch
+  * E.g. you can use CPU utilisation to specify to use 10 instances if CPU util hits 60%, 30 instances if CPU utili hits 70%, ... etc
+* You specify a step adjustment with:
+  * **Lower bound**
+  * **Upper bound**
+  * **Amount to scale, depending on adjustment type**
+* E.g. you could have the following step adjustment:
+  * Lower bound: 50%
+  * Upper bound: 60%
+  * Amount to scale: ChangeInCapacity of 2
+* Suppose it hits 55%, it will check if `50% <= 62 < 60%` and add to more instances to desired capacity
+* There cannot be overlap in the boundaries, so you could specify another step adjustment with lower bound of 60%
+* You can also set upper bound to `null` if you want it to go to infinity
+* You can also optionally specify a **warm-up time**, which is how long Auto Scaling will wait until adding new instances.
+* There is NO cooldown period in step scaling policies⚠️
 
-<hr>
+### 🟡 Target Tracking Policies
+* Target Tracking Policies can be more simplified compared to step scaling policies
+* You just select a metric and target value, and Auto Scaling will create a Cloud Watch Alarm and a scaling policy to adjust the number of instances to keep the metric near that target.
+* You can also scale inwards to delete instances to maintain a target value
+* You must select a metric which changes propotionally with instance availability.
 
+### 🟡 Scheduled Actions
+* You can adjust your capacity proactively if you can observe patterns in demand ensuring there is enough resource before demand hits
+* **To create a scheduled action**, you must specify the following:
+  - A min, max or desired capacity
+  - Start date and time
+* You can also set the policy to run at regular intervals, can also set an end time which automatically deletes the scheduled policy
