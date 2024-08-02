@@ -54,6 +54,25 @@
 * This policy can collect network configurations, file information, CPU information and registry values. 
 
 
-## Insights
+## 🟥 Insights
+* Insights offers aggregated data of health, operational details and compliance of AWS resources in a single area of AWS Systems Manager.
+* Some insights are categorized accoording to AWS Resource groups (collections of resources in a AWS region)
+* You can define a resource group based on tag keys and tag values
 
-## AWS Systems Manager Inventory
+### 🟡 Built-In Insights
+* These monitoring view are availabble to by default, including:
+   1. **AWS Config Compliance** - insights shows the total number of resources in a resource group which are or are no compliant with AWS Config tules, as well as compliance by resource.
+   2. **CloudTrail Events** - displays each resource in the group, resourcer type and last event that CloudTrail recorded
+   3. **Personal Health Dashboard** - alerts when AWS experiences issue that may impact resources. E.g. some APIs experience delayed responses.
+   4. **Trusted Advisor Recommendations** - can check your AWS environment for optimizations and recommendations for cost optimisation, performance, security, and fault tolerance. 
+
+* All AWS customers get the following security checks for free:
+  * Public access to S3 bucket
+  * Security Groups with unrestricted port access
+  * Whether you have created an IAM user
+  * Whether MFA is enabled for root user
+  * Public access to an EBS or RDS snapshot
+
+## 🟥 AWS Systems Manager Inventory
+
+### Compliance
