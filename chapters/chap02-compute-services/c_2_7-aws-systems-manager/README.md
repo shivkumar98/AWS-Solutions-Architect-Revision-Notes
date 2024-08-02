@@ -74,5 +74,16 @@
   * Public access to an EBS or RDS snapshot
 
 ## 🟥 AWS Systems Manager Inventory
+* The Inventory Manager collects data from instance such as OS and application versions.
+* It can collect the following data:
+   - OS name and version
+   - Applications and filenames, versions, and sizes
+   - Network configuration, including IP and MAC address
+   - Windows updates, roles, services, and registry values
+   - CPU model, cores, and speed
+* You can decide which instances to collect data from by creating a regionwide inventory association by executing `AWS-GatherSoftwareInventory` policy document.
 
-### Compliance
+### 🟡 Compliance
+* Compliance insights show how the patch and association status of your instances stack up against the rules you've configured
+* Patch compliance shows number of instances which are patched against baseline
+* Association compliance shows number of instances which have has successfully executed associations against them.
