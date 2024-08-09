@@ -29,3 +29,6 @@
 <hr>
 
 ## 🟥 Other Container-Oriented Services
+* **AWS Fargate** abstracts alot of the complixity for users who don't need any control over the infrastructure
+* **Amazon Elastic Container Registry (ECR)** is a managed Docker container registry service which makes it easy for users to store, manage and deploy docker container images
+* This removes need of platforms like GitHub to build the container
