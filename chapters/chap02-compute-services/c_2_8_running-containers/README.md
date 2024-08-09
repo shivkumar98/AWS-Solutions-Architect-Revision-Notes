@@ -19,4 +19,13 @@
 * To get many parts to work together accross complicated networks requires sophisticated orchestration - this is where **ECS** comes in
 * ECS lets your define your application, selecting container images, environment resources and other elements your app needs - ECS will take care of everything else
 
-### 🟡
+<hr>
+
+## 🟥 Amazon Elastic Kuberenetes Service
+* Kubernetes (K8s) is an open source container orchestrator originally built by Google for its own internal use.
+* Elastic Kubernetes Service plays a similar role to ECS but not tied to one platform
+* Kurbenetes is the most popular tool, all major cloud provides offer Kubernetes services
+
+<hr>
+
+## 🟥 Other Container-Oriented Services
