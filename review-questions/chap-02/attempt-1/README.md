@@ -93,6 +93,22 @@
 
 ## 🟧 Question 5
 
+❓ Normally, two instances running `m5.large` instance types can handle the traffic accessing your online e-commerce site, but you know that you will face short, unpredictable periods of high-demand. Which of the following choices should you implement? (choose two)
+
+* A. Configure autoscaling.
+* B. Configure load balancing.
+* C. Purchase two `m5.large` instances on the spot market and as many on-demand insances as necessary.
+* D. Shut down your `m5.large` instances and purchase instances using a more robust instance type to replace them.
+* E. Purchase two `m5.large` reserve instances and as many on-demand instances as necessary.
+
+<details>
+<summary> 📝 My answer 📝 </summary>
+
+* My guess its A and B, but E doesn't seem wrong neither
+* **A,B**
+</details>
+
+
 ## 🟧 Question 6
 
 ## 🟧 Question 7
