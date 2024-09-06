@@ -76,6 +76,21 @@
 
 ## 🟧 Question 4
 
+❓ The sensitivity of the data your company works with means that the instances you run must be secured through *complete* physical isolation. What should you specify as you configure as a new instance. ❓
+
+* A. Dedicated Host tenancy
+* B. Shared tenancy
+* C. Dedicated Instance tenancy
+* D. Isolated tenancy
+
+<details>
+<summary> 📝 My answer 📝 </summary>
+
+* It's definitely not B
+* I don't even think D is a valid option
+* **A**
+</details>
+
 ## 🟧 Question 5
 
 ## 🟧 Question 6
