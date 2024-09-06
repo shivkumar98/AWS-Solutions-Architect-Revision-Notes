@@ -117,12 +117,29 @@
 * C. You're running a backend database that must be reliably updated to keep track of critical transactions.
 * D. Your deployment runs as a static website on S3.
 
+<details>
+<summary> 📝 My answer 📝 </summary>
 
 * Spot market instances are intended for short term and consistent usage.
 * I'm guessing its B
 * **B**
+</details>
 
 ## 🟧 Question 7
+❓ In the course of a routine infrastructure audit, your organisation discovers that some of your running EC2 instances are not configured properly and must be updated. Which of the following configuration details cannot be changed be changed to an existing EC2 instance. ❓
+
+* A. AMI
+* B. Instance type
+* C. Security Group
+* D. Public IP address
+
+<details>
+<summary> 📝 My answer 📝 </summary>
+
+* It's A or D
+* **A**
+</details>
+
 
 ## 🟧 Question 8
 
