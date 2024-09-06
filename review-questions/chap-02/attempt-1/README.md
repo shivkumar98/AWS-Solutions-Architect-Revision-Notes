@@ -142,6 +142,12 @@
 
 
 ## 🟧 Question 8
+❓ For an account with multiple resources running as part of multiple projects, which of the following key/value pair combination examples would make the most effective identification convention for resource tags?
+
+* A. `servers:server1`
+* B. `project1:server1`
+* C. `EC2:projectg1:server1`
+* D. `server1:project1`
 
 ## 🟧 Question 9
 
