@@ -108,8 +108,19 @@
 * **A,B**
 </details>
 
-
 ## 🟧 Question 6
+
+❓ Which of the following use cases would be most cost effective if run using spot market instances? ❓
+
+* A. Your e-commerce website is built using  a publicly available AMI
+* B. You provide high-end video rendering services using a fault-tolerant process that can easily manage a job that was unexpectedly interrupted.
+* C. You're running a backend database that must be reliably updated to keep track of critical transactions.
+* D. Your deployment runs as a static website on S3.
+
+
+* Spot market instances are intended for short term and consistent usage.
+* I'm guessing its B
+* **B**
 
 ## 🟧 Question 7
 
