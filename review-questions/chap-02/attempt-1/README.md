@@ -149,7 +149,27 @@
 * C. `EC2:projectg1:server1`
 * D. `server1:project1`
 
+<details>
+<summary> 📝 My answer 📝 </summary>
+
+* **B**
+</details>
+
 ## 🟧 Question 9
+* Which of the following EBS options will you need to keep your data-hungry application that requires 20,000 IOPS happy?
+
+* A. Cold HDD
+* B. General Purpose SSD
+* C. Throughput-optimized HDD
+* D. Provisioned IOPS SSD
+
+<details>
+<summary> 📝 My answer 📝 </summary>
+
+* My guess would be D, but C could also be correct too.
+* **D**
+</details>
+
 
 ## 🟧 Question 10
 
