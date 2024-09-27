@@ -206,3 +206,19 @@
 * E - false
 * **A,D**
 </details>
+
+## 🟧 Question 12
+* According to default behavior (and AWS recommendations), which of the following IP addresses could be assigned as the private IP for an EC2 instance? (Choose two)
+
+* A. `54.61.211.98`
+* B. `23.176.92.3`
+* C. `172.17.23.43`
+* D. `10.0.32.176`
+* E. `192.140.2.118`
+
+<details>
+<summary> 📝 My answer 📝 </summary>
+
+* C and E seem to be the only valid ones
+* **C,E**
+</details>
