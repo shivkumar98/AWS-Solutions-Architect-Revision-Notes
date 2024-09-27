@@ -172,5 +172,19 @@
 
 
 ## 🟧 Question 10
+* Your organisation needs to introduce Auto Scaling to its infrastructure and needs to generate a "golden image" from an existing EBS volume. This image will need to be shared among multiple AWS accounts belonging to your organisation. Which of the following steps will get you there? (Choose three.)
+
+* A. Create an image from a detached EBS volume, use it to create a snapshot, select your new AMI from your private collection, and use it for your launch configuration.
+* B. Create a snapshot of the EBS root you need, use it to create an image, select your new AMI from your private collection, and use it for your launch configuration.
+* C. Create an image from the EBS volume attached to the instance, select your new AMI from your private collection, and use it for your launch configuration.
+* D. Search the AWS Marketplace for the appropiate image and use it for your launch configurationn.
+* E. Import the snapshot of an EBS root volume from a different AWS account, use it to create an image, select your new AMI from your private collection, and use it for your launch connfiguration.
+
+<details>
+<summary> 📝 My answer 📝 </summary>
+
+* **A,B,E**
+</details>
+
 
 ## 🟧 Question 11
