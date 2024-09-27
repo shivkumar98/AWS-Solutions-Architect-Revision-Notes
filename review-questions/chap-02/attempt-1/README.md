@@ -188,3 +188,21 @@
 
 
 ## 🟧 Question 11
+* Which of the following are benefits of instance store volumes? (Choose two)
+
+* A. Instance volumes are physically attached to the server that's hosting your instance, allowing faster data access.
+* B. Instance volumes can be used to store data even after the instance is shut down.
+* C. The use of instance volumes does not incur costs (beyond those for the instance itself)
+* D. You can set termination protection so that an instance volume can't be accidentally shut down.
+* E. Instance volumes are commonly used as a base for the creation of AMIs.
+
+<details>
+<summary> 📝 My answer 📝 </summary>
+
+* A - true
+* B - don't know
+* C - false
+* D - true
+* E - false
+* **A,D**
+</details>
