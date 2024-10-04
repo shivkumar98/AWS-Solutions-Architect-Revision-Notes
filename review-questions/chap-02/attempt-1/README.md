@@ -238,3 +238,23 @@
 * E is false, C is false
 * **A,B,D**
 </details>
+
+## 🟧 Question 14
+* How are IAM roles commonly used to ensure secure resource accessss in relation to EC2 instances?
+
+* A. A role can assign processes running on the EC2 instance itself permissionn to access other AWS resources.
+* B. A user can be given permission to authenticate as a role annd access all associated resources.
+* C. A role can be associated with individual instance-based processes (Linux instances only), giving them permission to access other AWS resources.
+* D. A role can give users and resources permission to access the EC2 instance.
+
+<details>
+<summary> 📝 My answer 📝 </summary>
+
+* A - doesn't sound right
+* B - seems right
+* C - false
+* D - correct
+* **D**
+</details>
+
+## 🟧 Question 15
