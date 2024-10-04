@@ -222,3 +222,19 @@
 * C and E seem to be the only valid ones
 * **C,E**
 </details>
+
+## 🟧 Question 13
+* You need to restrict access to your EC2 instance-based application to only certain clients and only certain targets. Which three attributess of an incoming data packet are used by a security groupp to determine whether it should be allowed through (Choose three)
+
+* A. Network port
+* B. Source address
+* C. Datagram header size
+* D. Network protocol
+* E. Destination address
+
+<details>
+<summary> 📝 My answer 📝 </summary>
+
+* E is false, C is false
+* **A,B,D**
+</details>
