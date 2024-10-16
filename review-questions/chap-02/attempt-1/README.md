@@ -7,7 +7,7 @@
 
 | Question # | Correct  |
 | ---------- | -------  |
-| 1          |       |
+| 1          |  ❌     |
 | 2          |       |
 | 3          |       |
 | 4          |       |
@@ -18,6 +18,19 @@
 | 9          |       |
 | 10         |       |
 | 11         |       |
+| 12         |       |
+| 13         |       |
+| 14         |       |
+| 15         |       |
+| 16         |       |
+| 17         |       |
+| 18         |       |
+| 19         |       |
+| 20         |       |
+| 21         |       |
+| 22         |       |
+| 23         |       |
+| 24         |       |
 
 
 ## 🟧 Question 1
@@ -56,7 +69,9 @@
 <summary> 📝 My answer 📝 </summary>
 
 * The VM Import/Export tool should be used, then you will deploy it via your private AMIS
-* **B,C**
+* **B,C**✅✅✅✅
+* The VM Import/Export tool allows for secure transfer between AWS account and local datacenter
+* An uploaded image will appeare under private AMIs in the region you selected
 
 </details>
 
