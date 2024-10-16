@@ -8,8 +8,8 @@
 | Question # | Correct  |
 | ---------- | -------  |
 | 1          |  ❌     |
-| 2          |       |
-| 3          |       |
+| 2          |  ✅     |
+| 3          |  ✅     |
 | 4          |       |
 | 5          |       |
 | 6          |       |
@@ -88,7 +88,8 @@
 <summary> 📝 My answer 📝 </summary>
 
 * Total guess that it is D, all other answers seem irrelevant
-* **D**
+* **D**✅✅✅✅
+* An AMI is tied to one region and can not be accessed from outside the region.
 
 </details>
 
