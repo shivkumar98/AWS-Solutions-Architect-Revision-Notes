@@ -1,47 +1,38 @@
-# Chapter 2 - Review Questions Attempt 1
+# Chapter 2 - Review Questions Attempt #
 
 ## Results:
 
-* Date: 18/10/2024
-* Score: 14/24 (58%)
+* Date: 
+* Score:
 
 | Question # | Correct  |
 | ---------- | -------  |
 | 1          |  ❌     |
 | 2          |  ✅     |
-| 3          |  ✅     |
-| 4          |  ✅     |
-| 5          |  ❌     |
-| 6          |  ✅     |
-| 7          |  ✅     |
-| 8          |  ✅     |
-| 9          |  ✅     |
-| 10         |  ❌     |
-| 11         |  ❌     |
-| 12         |  ❌     |
-| 13         |  ✅     |
-| 14         |  ✅     |
-| 15         |  ❌     |
-| 16         |  ❌     |
-| 17         |  ❌     |
-| 18         |  ✅     |
-| 19         |  ✅     |
-| 20         |  ✅     |
-| 21         |  ✅     |
-| 22         |  ❌     |
-| 23         |  ✅     |
-| 24         |  ❌     |
+| 3          |       |
+| 4          |       |
+| 5          |       |
+| 6          |       |
+| 7          |       |
+| 8          |       |
+| 9          |       |
+| 10         |       |
+| 11         |       |
+| 12         |       |
+| 13         |       |
+| 14         |       |
+| 15         |       |
+| 16         |       |
+| 17         |       |
+| 18         |       |
+| 19         |       |
+| 20         |       |
+| 21         |       |
+| 22         |       |
+| 23         |       |
+| 24         |       |
 
 ## ✏️ Summary Notes ✏️
-* Load balancing is related to network traffic and has no relation to meeting demands.
-* You CAN change the public IP address, Instance Type and Security group of an existing EC2 instances. You can NOT change the `AMI`
-* AMI = Amazon Machine Image
-* The valid subnet IP address ranges are:
-  * `10.0.0.0 - 10.255.255.255`
-  * `172.16.0.0 - 172.31.255.255`
-  * `198.168.0.0 - 198.168.255.255`
-* IAM roles determine whether resources can access each other.
-
 
 ## 🟧 Question 1
 
@@ -56,10 +47,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **B,C**❌❌❌❌
-* **CORRECR ANSWER: A,C**
-* Since multiple instances need to be created, it is mmore efficient to bootstrap.
-* E is wrong as site-to-site VPN tool does NOT use OpenVPN
+
 </details>
 
 <hr>
@@ -78,12 +66,11 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* The VM Import/Export tool should be used, then you will deploy it via your private AMIS
-* **B,C**✅✅✅✅
-* The VM Import/Export tool allows for secure transfer between AWS account and local datacenter
-* An uploaded image will appeare under private AMIs in the region you selected
 
 </details>
+
+<hr>
+
 
 ## 🟧 Question 3
 
@@ -97,11 +84,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* Total guess that it is D, all other answers seem irrelevant
-* **D**✅✅✅✅
-* An AMI is tied to one region and can not be accessed from outside the region.
 
 </details>
+
+<hr>
 
 ## 🟧 Question 4
 
@@ -115,12 +101,11 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* It's definitely not B
-* I don't even think D is a valid option
-* **A**✅✅✅✅
-* Only dedicated host tenancy offers complete physical isolation
-* Dedicated Instance tenancy does mean there is hardware isolation but within the same server. Shared tenancy shares hardware.
+
 </details>
+
+<hr>
+
 
 ## 🟧 Question 5
 
@@ -135,12 +120,11 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* My guess its A and B, but E doesn't seem wrong neither
-* **A,B**❌❌❌❌
-* **CORRECT ANSWER: A,E**
-* Load balancing controls traffic to instances, and by itself can not impact your ability to handle demand.
-* Reserve instances offer best price for instances which you will run all the time, and on-demand
+
 </details>
+
+<hr>
+
 
 ## 🟧 Question 6 
 
@@ -154,12 +138,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* Spot market instances are intended for short term and consistent usage.
-* I'm guessing its B
-* **B**✅✅✅✅
-* The spot market is useful for instances which can be easily shutdown, and B says it can manage the job even if interrupted
-* Static websites would not use EC2 instances!!! You could just use an S3 bucket
+
 </details>
+
+<hr>
 
 ## 🟧 Question 7
 ❓ In the course of a routine infrastructure audit, your organisation discovers that some of your running EC2 instances are not configured properly and must be updated. Which of the following configuration details cannot be changed be changed to an existing EC2 instance. ❓
@@ -172,14 +154,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* It's A or D
-* **A**✅✅✅✅
-* Note an AMI is the Amazon Machine Image!!!
-* You CAN change the public IP address, Instance Type and Security group of an existing EC2 instances
-* Modification to security groups will take effect immediately.
-* You can change instance type provided the instance is shutdown first.
-* To modify AMI, you need to create a new instance from scratch
+
 </details>
+
+<hr>
 
 
 ## 🟧 Question 8
@@ -193,8 +171,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **B**✅✅✅✅
-* The first string is the key - the group to which a resource belongs, the second is the value which identifies the resource.
+* **B**
 </details>
 
 ## 🟧 Question 9
@@ -208,9 +185,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* My guess would be D, but C could also be correct too.
-* **D**✅✅✅✅
+
 </details>
+
+<hr>
 
 
 ## 🟧 Question 10
@@ -225,13 +203,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **A,B,E**❌❌❌❌
-* **CORRECT ANSWER: B,C,E**
-* You can not take an image from a detached EBS volume because an image represents the current state of the instance
-* So A is wrong and C is right.
-* D is not a relevant option
+
 </details>
 
+<hr>
 
 ## 🟧 Question 11
 * Which of the following are benefits of instance store volumes? (Choose two)
@@ -245,15 +220,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* A - true
-* B - don't know
-* C - false
-* D - true
-* E - false
-* **A,D**❌❌❌❌
-* **CORRECT ANSWER: A,C**
-* Instace store volumes have no form of protection, they are empheral - lost when instance is shutdown. Should only be used for temporary files since its fast and no costs involved!
+
 </details>
+
+<hr>
 
 ## 🟧 Question 12
 * According to default behavior (and AWS recommendations), which of the following IP addresses could be assigned as the private IP for an EC2 instance? (Choose two)
@@ -267,22 +237,13 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* C and E seem to be the only valid ones
-* **C,E**❌❌❌❌
-* The valid ranges for IP addresses are:
-   - `10.0.0.0 - 10.255.255.255`
-   - `172.16.0.0 - 172.31.255.255`
-   - `192.168.0.0 - 192.168.255.244`
-* A is invalid
-* B invalid
-* C valid
-* D valid
-* E invalid
-* **CORRECT ANSWER: C,D**
+
 </details>
 
+<hr>
+
 ## 🟧 Question 13
-* You need to restrict access to your EC2 instance-based application to only certain clients and only certain targets. Which three attributess of an incoming data packet are used by a security group to determine whether it should be allowed through (Choose three)
+* You need to restrict access to your EC2 instance-based application to only certain clients and only certain targets. Which three attributess of an incoming data packet are used by a security groupp to determine whether it should be allowed through (Choose three)
 
 * A. Network port
 * B. Source address
@@ -293,14 +254,15 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* E is false, C is false
-* **A,B,D**✅✅✅✅
+
 </details>
+
+<hr>
 
 ## 🟧 Question 14
 * How are IAM roles commonly used to ensure secure resource accessss in relation to EC2 instances?
 
-* A. A role can assign processes running on the EC2 instance itself permission to access other AWS resources.
+* A. A role can assign processes running on the EC2 instance itself permissionn to access other AWS resources.
 * B. A user can be given permission to authenticate as a role annd access all associated resources.
 * C. A role can be associated with individual instance-based processes (Linux instances only), giving them permission to access other AWS resources.
 * D. A role can give users and resources permission to access the EC2 instance.
@@ -308,13 +270,11 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* A - doesn't sound right
-* B - seems right
-* C - false
-* D - correct
-* **D**✅✅✅✅
-* IAM roles determine whether resources can access each other.
+
 </details>
+
+<hr>
+
 
 ## 🟧 Question 15
 * You have an access running within a private subnet that needs external network accesss to recieve software updates and patches. Which of the following can securely provide that access from a public subnet within the same VPC? (Choose two)
@@ -328,18 +288,14 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* It needs internet access so A and C are possible
-* B is wrong
-* E is wrong as VPN does not give internet access
-* **A,B**❌❌❌❌
-* **CORRECT ANSWER: B,D**
-* NAT instances and NAT gateway is AWS's solution for instances to accessing private and public subnets.
-* Internet Gateway is to provide internet access to instances within a VPC, it does not control or secure access
+
 </details>
+
+<hr>
 
 
 ## 🟧 Question 16
-* What do you have to do securely authenticate to the GUI console of a Windows EC2 session?
+* What do you have to do securely authenticate to the GUI consolle of a Windows EC2 session?
 
 * A. Use the private key of your key pair to initiate an SSH tunnel session
 * B. Use the public key of your key pair to initiate an SSH tunnel session
@@ -349,12 +305,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* A seems to be the obvious answer
-* **A**❌❌❌❌
-* SSH is typically used to access to Linux instances.
-* For windows you need a key to decrypt the administrator password which is used to login via Remote Desktop Protocol
-* **CORRECT ANSWER: D**
+
 </details>
+
+<hr>
 
 ## 🟧 Question 17
 
@@ -368,32 +322,26 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* A - false
-* B - possible
-* C - definitely
-* D - false
-* **C**❌❌❌❌
-* Load balancing is for controlling traffic of users requests between multiple EC2 instances.
-* Systems manager is for monitoring and administration
-* Fargate is related to docker containers
-* **CORRECT ANSWER: B**
 
 </details>
+
+<hr>
 
 ## 🟧 Question 18
 * To save configuration time and money, you want your application to run only when network events trigger it but shut down immediately after. Which of the following will do that for you?
 
 * A. AWS Lambda
-* B. AWS Elastic Beanstalk
+* B. AWS Elastic Beanstalkk
 * C. Amazon Elastic Container Service (ECS)
 * D. Auto Scaling
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* A lambda is a serverless function call, so yeah it would meet the needs of this question.
-* **A**✅✅✅✅
+
 </details>
+
+<hr>
 
 
 ## 🟧 Question 19
@@ -407,11 +355,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* It's definitely C
-* **C**✅✅✅✅
-* While S3 is used to store the machine image, it is not directly invloved with importing
 
 </details>
+
+<hr>
 
 
 ## 🟧 Question 20
@@ -425,14 +372,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* There is no mentioning of use of CloudFormation on this question, so D is wrong
-* Modifying the launch configuration or template alone will not lead to existing/new instances to have an application installed, so A and C are wrong.
-* B seems correct from process of elimination
-* **B**✅✅✅✅
-* You can't modify a launch configuration, only a launch template (by creating a new version)
+
 </details>
 
-
+<hr>
 
 ## 🟧 Question 21
 * You create an Auto Scaling group with a minimum group size of 3, a maximum group size of 10, and a desired capacity of 5. You then manually terminate two instances in the group. Which of the following will Auto Scaling do?
@@ -445,11 +388,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* Manually terminating instances does not lead to configuration changing so B and D are wrong.
-* A and C both seem plausible depending on the circumstances but assuming 5 are running, if two are removed, two instances will be created
-* **A**✅✅✅✅
+
 </details>
 
+<hr>
 
 
 ## 🟧 Question 22
@@ -464,16 +406,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* C is definitely wrong as it should scale proportionally
-* B is wrong, I think
-* E is necessary
-* A and B bot seem correct
-* **A,B,E**❌❌❌❌
-* Scheduled actions let you specify min/max size for groups on a schedule which is ideal for predicatable surges
-* Step scaling lets you make adjustments based on size of an alarm breach, enabbling proportional adjustment to CPU utilisation.
-* **CORRECT ANSWER: B,C**
 
 </details>
+
+<hr>
 
 
 ## 🟧 Question 23
@@ -487,13 +423,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* I think its B
-* **B**✅✅✅✅
-* Automation documents let you automatically execute actions on resources, like taking EBS snapshhot.
-* A command document is an action performed within a Windows or Linux instance.
-* There is no manual document type
 
 </details>
+
+<hr>
 
 
 ## 🟧 Question 24
@@ -507,8 +440,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* Total guess is D
-* **D**❌❌❌❌
-* **CORRECT ANSWER: B**
-* Fargate use ECS and Elastic Kubernetes Service under the hood. It abstracts away alot of the confiuration details. Hence B is correct answer.
+
 </details>
+
+<hr>
