@@ -24,7 +24,7 @@
 
 ❓ You need to deploy multiple EC2 Linux instances that will provide your company with VPNs using a software called OpenVPN. Which of the following will be thhe most efficient solutionss (CHOOSE TWO)❓
 
-* A. Select a regular Linux AMI and bootstrap it using user data thhat will install and configure the OpenVPN package on the instance and use it for your VPN instances
+* A. Select a regular Linux AMI and bootstrap it using user data that will install and configure the OpenVPN package on the instance and use it for your VPN instances
 * B. Search the community AMIs for an official AMI provided and supported by the Open-VPN company
 * C. Search the AWS Marketplace to see whether there's an official AMI provided and supported by the OpenVPN company
 * D. Select a regular Linux AMI and SSH to manually install and configure the OpenVPN package
@@ -33,7 +33,10 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **B,C**
+* **B,C**❌❌❌❌
+* **CORRECR ANSWER: A,C**
+* Since multiple instances need to be created, it is mmore efficient to bootstrap.
+* E is wrong as site-to-site VPN tool does NOT use OpenVPN
 </details>
 
 <hr>
