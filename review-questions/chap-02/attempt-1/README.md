@@ -32,6 +32,8 @@
 | 23         |       |
 | 24         |       |
 
+## ✏️ Summary Notes ✏️
+* Load balancing is related to network traffic and has no relation to meeting demands.
 
 ## 🟧 Question 1
 
@@ -107,7 +109,9 @@
 
 * It's definitely not B
 * I don't even think D is a valid option
-* **A**
+* **A**✅✅✅✅
+* Only dedicated host tenancy offers complete physical isolation
+* Dedicated Instance tenancy does mean there is hardware isolation but within the same server. Shared tenancy shares hardware.
 </details>
 
 ## 🟧 Question 5
@@ -124,10 +128,13 @@
 <summary> 📝 My answer 📝 </summary>
 
 * My guess its A and B, but E doesn't seem wrong neither
-* **A,B**
+* **A,B**❌❌❌❌
+* **CORRECT ANSWER: A,E**
+* Load balancing controls traffic to instances, and by itself can not impact your ability to handle demand.
+* Reserve instances offer best price for instances which you will run all the time, and on-demand
 </details>
 
-## 🟧 Question 6
+## 🟧 Question 6 
 
 ❓ Which of the following use cases would be most cost effective if run using spot market instances? ❓
 
