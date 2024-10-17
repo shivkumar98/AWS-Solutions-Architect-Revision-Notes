@@ -10,9 +10,9 @@
 | 1          |  ❌     |
 | 2          |  ✅     |
 | 3          |  ✅     |
-| 4          |  ✅     |
-| 5          |  ❌     |
-| 6          |  ✅     |
+| 4          |       |
+| 5          |       |
+| 6          |       |
 | 7          |       |
 | 8          |       |
 | 9          |       |
@@ -148,9 +148,7 @@
 
 * Spot market instances are intended for short term and consistent usage.
 * I'm guessing its B
-* **B**✅✅✅✅
-* The spot market is useful for instances which can be easily shutdown, and B says it can manage the job even if interrupted
-* Static websites would not use EC2 instances!!! You could just use an S3 bucket
+* **B**
 </details>
 
 ## 🟧 Question 7
