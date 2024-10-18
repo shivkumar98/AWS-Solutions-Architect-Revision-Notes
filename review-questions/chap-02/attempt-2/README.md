@@ -92,18 +92,19 @@
 <hr>
 
 ## 🟧 Question 4
+❓ The sensitivity of the data your company works with means that the insstances you run must be secured through complete physical isolation. What should you specify as you configure a new instance ❓
 
-❓ ❓
-
-* A.
-* B.
-* C.
-* D.
+* A. Dedicated Host tenancy
+* B. Shared tenancy
+* C. Dedicated Instance tenancy
+* D. Isolated tenancy
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* B is definitely wrong
+* D is not a thing
+* **A**
 </details>
 
 <hr>
