@@ -40,13 +40,16 @@
 * A.  Select a regular Linux AMI and bootstrap it using user data that will install and configure OpenVPN package on the instance and use it for your VPN instances.
 * B. Search the community AMI for an official AMI provided and supported by the VPN company.
 * C. Search the AWS marketplace to see whether there's an official AMI provided and supported by the OpenVPN company
-* D. Select a regular Linux AMI and SSH to manually
-* E.
+* D. Select a regular Linux AMI and SSH to manually install and configure the OpenVPN package
+* E. Create a site-to-site VPN connection from the wizard in the AWS VPC dashboard
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* E is not valid
+* D is not efficient
+* A is the best and C comes second up
+* **A,C**
 </details>
 
 <hr>
