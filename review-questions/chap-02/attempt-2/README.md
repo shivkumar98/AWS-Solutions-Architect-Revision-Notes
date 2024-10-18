@@ -76,18 +76,17 @@
 
 
 ## 🟧 Question 3
+❓ Your AWS CLI command to launch an AMI as an EC2 instance has failed, giving you an error message that includes `InvalidAMIID.NotFound`. What of thhe following is the most likely cause? ❓
 
-❓❓
-
-* A.
-* B.
-* C.
-* D.
+* A. You haven't configured the `~/.aws/config` file
+* B. The AMI is being updated and temporarily unavailable.
+* C. Your key pair file has been given the wrong (overly) permissions
+* D. The AMI you specified exists in a different region than the one you've currently specified.
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **D**
 </details>
 
 <hr>
