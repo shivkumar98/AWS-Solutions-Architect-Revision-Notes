@@ -1,4 +1,4 @@
-# Chapter 2 - Review Questions Attempt #
+# Chapter 2 - Review Questions Attempt 2
 
 ## Results:
 
@@ -35,13 +35,12 @@
 ## ✏️ Summary Notes ✏️
 
 ## 🟧 Question 1
+❓ You need to deploy multiple EC2 Linux instances that will provide your company with virtual private networks (VPNs) using software called OpenVPN. Which of the following will be the mmost efficient solutions? (CHOOSE TWO) ❓
 
-❓ ❓
-
-* A. 
-* B. 
-* C. 
-* D. 
+* A.  Select a regular Linux AMI and bootstrap it using user data that will install and configure OpenVPN package on the instance and use it for your VPN instances.
+* B. Search the community AMI for an official AMI provided and supported by the VPN company.
+* C. Search the AWS marketplace to see whether there's an official AMI provided and supported by the OpenVPN company
+* D. Select a regular Linux AMI and SSH to manually
 * E.
 
 <details>
