@@ -56,19 +56,20 @@
 
 
 ## 🟧 Question 2
+❓ As part of your company's long term cloud migration strategy, you have a VMware virtual machine in your local infrastructure that you'd like to copy to your AWS account and run as an EC2 instance. Which of thhe following will be necessary steps? (CHOOSE TWO)❓
 
-❓ ❓
-
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. Import your virtual machine to your AWS region using secure SSH tunnel
+* B. Import the virtual machine using VM Import/Export.
+* C. Select the imported VM from among your private AMIs and launch an instance.
+* D. Select the imported VM from the AWS Marketplace AMIs and launch an instance.
+* E. Use the AWS CLI to securely copy your virtual machine image to an S3 bucket within the AWS region you'll be using.
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* I don't think an image can be imported via SSH.
+* My guess would be B and C
+* **B,C**
 </details>
 
 <hr>
