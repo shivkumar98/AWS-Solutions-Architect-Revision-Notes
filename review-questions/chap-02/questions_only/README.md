@@ -171,7 +171,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **B**
+
 </details>
 
 ## 🟧 Question 9
