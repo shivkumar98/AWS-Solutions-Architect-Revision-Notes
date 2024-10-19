@@ -2,35 +2,35 @@
 
 ## Results:
 
-* Date: 
-* Score:
+* Date: 19/10/2024
+* Score: 23/24 (96%)
 
 | Question # | Correct  |
 | ---------- | -------  |
-| 1          |  ❌     |
+| 1          |  ✅     |
 | 2          |  ✅     |
-| 3          |       |
-| 4          |       |
-| 5          |       |
-| 6          |       |
-| 7          |       |
-| 8          |       |
-| 9          |       |
-| 10         |       |
-| 11         |       |
-| 12         |       |
-| 13         |       |
-| 14         |       |
-| 15         |       |
-| 16         |       |
-| 17         |       |
-| 18         |       |
-| 19         |       |
-| 20         |       |
-| 21         |       |
-| 22         |       |
-| 23         |       |
-| 24         |       |
+| 3          |  ✅     |
+| 4          |  ✅     |
+| 5          |  ✅     |
+| 6          |  ✅     |
+| 7          |  ✅     |
+| 8          |  ✅     |
+| 9          |  ✅     |
+| 10         |  ✅     |
+| 11         |  ✅     |
+| 12         |  ✅     |
+| 13         |  ❌     |
+| 14         |  ✅     |
+| 15         |  ✅     |
+| 16         |  ✅     |
+| 17         |  ✅     |
+| 18         |  ✅     |
+| 19         |  ✅     |
+| 20         |  ✅     |
+| 21         |  ✅     |
+| 22         |  ✅     |
+| 23         |  ✅     |
+| 24         |  ✅     |
 
 ## ✏️ Summary Notes ✏️
 
@@ -49,7 +49,8 @@
 * E is not valid
 * D is not efficient
 * A is the best and C comes second up
-* **A,C**
+* **A,C**✅✅✅✅
+* Community AMIs are not official and may not support version of Open VPN
 </details>
 
 <hr>
@@ -69,7 +70,7 @@
 
 * I don't think an image can be imported via SSH.
 * My guess would be B and C
-* **B,C**
+* **B,C**✅✅✅✅
 </details>
 
 <hr>
@@ -86,13 +87,13 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **D**
+* **D**✅✅✅✅
 </details>
 
 <hr>
 
 ## 🟧 Question 4
-❓ The sensitivity of the data your company works with means that the insstances you run must be secured through complete physical isolation. What should you specify as you configure a new instance ❓
+❓ The sensitivity of the data your company works with means that the instances you run must be secured through complete physical isolation. What should you specify as you configure a new instance ❓
 
 * A. Dedicated Host tenancy
 * B. Shared tenancy
@@ -104,7 +105,8 @@
 
 * B is definitely wrong
 * D is not a thing
-* **A**
+* **A**✅✅✅✅
+*  Dedicated Instance tenancy means the instance will be in a server allocated to a single customer, but this does not meet the complete physical isolation necessary for this question
 </details>
 
 <hr>
@@ -122,7 +124,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **A,E**
+* **A,E**✅✅✅✅
 </details>
 
 <hr>
@@ -139,7 +141,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **B**
+* **B**✅✅✅✅
 </details>
 
 <hr>
@@ -157,7 +159,7 @@
 
 * Instance type can be modified, but will not take effect until instance is shutdown
 * Security groups can be modified and take effect immediately
-* **A**
+* **A**✅✅✅✅
 </details>
 
 <hr>
@@ -174,7 +176,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **B**
+* **B**✅✅✅✅
 </details>
 
 ## 🟧 Question 9
@@ -188,7 +190,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **D**
+* **D**✅✅✅✅
 </details>
 
 <hr>
@@ -199,7 +201,7 @@
 
 * A. Create an image from a detached EBS volume, use it to create a snapshot, select your new AMI from your private collection, and use it for your launch configuration.
 * B. Create a snapshot of the EBS root volume you need, use it for create an image, select your new AMI from your private collection, and use it for your launch configuration.
-* C. Create an imagee from the EBS volume attached to the instance, select your new AMI from your private collection, and use it for your launch configuration.
+* C. Create an image from the EBS volume attached to the instance, select your new AMI from your private collection, and use it for your launch configuration.
 * D. Search the AWS Marketplace for the appropiate image and use it for your launch configuration.
 * E. Import the snapshot of an EBS root volume from a different AWS account, use it to create an image, select your new AMI from your private collection, and use it for your launch configuration.
 
@@ -208,7 +210,7 @@
 
 * A is false as you cannot take an image from a detached EBS volume
 * D is false
-* **B,C,E**
+* **B,C,E**✅✅✅✅
 </details>
 
 <hr>
@@ -226,7 +228,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * There is absolutely no protectionf for instance store volumes, so D is wrong
-* **A,C**
+* **A,C**✅✅✅✅
 </details>
 
 <hr>
@@ -247,13 +249,14 @@
 * D is valid
 * E is wrong as the range is `192.168.0.0` - `192.168.255.255`
 * A and B are not in range as they begin with 54 and 23
-* **C,D**
+* **C,D**✅✅✅✅
+* Valid range includes `172.16.0.0` - `172.31.255.255`
 </details>
 
 <hr>
 
 ## 🟧 Question 13
-❓ You need to restrict access to your EC2 instance-based application to only certain clients and only certain targets. Which three attributes on an incoming data packet are used by a security group to determine whether it should bbe allowed thhrough (CHOOSE THREE) ❓
+❓ You need to restrict access to your EC2 instance-based application to only certain clients and only certain targets. Which three attributes on an incoming data packet are used by a security group to determine whether it should be allowed thhrough (CHOOSE THREE) ❓
 
 
 * A. Network port
@@ -265,7 +268,8 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **C,E**
+* **C,E**❌❌❌❌
+* NOTE: I misread the question!
 </details>
 
 <hr>
@@ -281,8 +285,8 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* Roles cannot be associated with instance processes, only resources themselves/.
-* **D**
+* Roles cannot be associated with instance processes, only resources themselves.
+* **D**✅✅✅✅
 </details>
 
 <hr>
@@ -301,7 +305,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * NAT instance and NAT gateway are used to give restricted access to internet
-* **B,D**
+* **B,D**✅✅✅✅
 </details>
 
 <hr>
@@ -320,7 +324,7 @@
 
 * SSH connections are typical for Linux instances.
 * For windows, you need to decrypt the adminstrator password to connect via RDP
-* **D**
+* **D**✅✅✅✅
 </details>
 
 <hr>
@@ -336,7 +340,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **B**
+* **B**✅✅✅✅
 </details>
 
 <hr>
@@ -353,7 +357,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **A**✅✅✅✅
 </details>
 
 <hr>
@@ -370,7 +374,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **C**
+* **C**✅✅✅✅
 </details>
 
 <hr>
@@ -387,7 +391,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **B**
+* **B**✅✅✅✅
 </details>
 
 <hr>
@@ -404,7 +408,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * Auto scaling does not have effect on configuration settins.
-* **A**
+* **A**✅✅✅✅
 </details>
 
 <hr>
@@ -424,7 +428,7 @@
 
 * Scheduled actions is ideal as we know there's a pattern in increased traffice
 * Step scaling is ideal to proportionally handle CPU utilisation in response to how much a cloudwatch alarm is exceeded
-* **B,C**
+* **B,C**✅✅✅✅
 </details>
 
 <hr>
@@ -440,7 +444,7 @@
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-* **B**
+* **B**✅✅✅✅
 </details>
 
 <hr>
@@ -458,7 +462,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * AWS Fargate abstracts alot of the configuration details of Amazon Elastic Kubernetes Services and Amazon Elastic Container Service
-* **B**
+* **B**✅✅✅✅
 </details>
 
 <hr>
