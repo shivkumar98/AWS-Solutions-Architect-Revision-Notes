@@ -11,7 +11,10 @@
 * E.g. you could use `/` delimiter to emulate folder directories.
 
 ## 🟥 Working with Large Objects
-
+* There is no size limit for how much a bucket can store, however there is a 5TB limit on a single object
+* There is a 5GB limit on a single upload
+* You can use multipart upload to upload documents up to 5TB
+* AWS offers low-level and high-level APIs for S3 uploads.
 
 ## 🟥 Encryption
 
