@@ -7,8 +7,16 @@
 * This how the file would be addressed via CLI: `s3://bucketname/filename`
 
 ## 🟥 Prefixed and Delimiters
-
+* S3 stores objects in flat structure without subfolder hierarchy. You can use prefixed and delimiters to give the illusion of structure
+* E.g. you could use `/` delimiter to emulate folder directories.
 
 ## 🟥 Working with Large Objects
+
+
+## 🟥 Encryption
+
+## 🟥 Logging
+
+
 
 ### 🟡 H3
