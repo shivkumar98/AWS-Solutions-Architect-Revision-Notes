@@ -13,3 +13,5 @@
 ## 🟥 Life Cycle Management
 * On top of intelligent tiering, S3 classes have lifecycle management which let you to change S3 class after a set number of days.
 * E.g. you could move files to the ultra cheap Glacier class for 365 days before being deleted.
+
+* I completed [🏋️ Exercise 3.2 Enable Versioning and Life Cycle Management for an S3 Bucket 🏋️](../../../exercises/chap03/e_3_2/)
