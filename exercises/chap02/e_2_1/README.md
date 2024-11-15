@@ -12,23 +12,39 @@
 * I created an EC2 instance
 * I left the default options on for the AMI and instance type (`Amazon Linux 2023 AMI` and `t2.micro`)
 * For the Key pair (login), I create a new key-pair:
-![](../screenshots/2024-07-12-08-01-18.png)
-* I provide the name of the key-pair, and click `Create key pair` which downloads the `.pem` file on my computer:
-![](../screenshots/2024-07-12-08-05-33.png)
+   <details>
+   <summary>Screenshot</summary>
+   <img src="../screenshots/2024-07-12-08-01-18.png" width="250px">
+   </details>
 
-<br>
+* I provide the name of the key-pair, and click `Create key pair` which downloads the `.pem` file on my computer:
+   <details>
+   <summary>Screenshot</summary>
+   <img src="../screenshots/2024-07-12-08-05-33.png" width="250px">
+   </details>
+
+
 
 * For the Network settings, I check the tick box to allow SHH (port 20) traffic from anywhere:
-![](../screenshots/2024-07-12-08-09-34.png)
+   
+   <img src="../screenshots/2024-07-12-08-09-34.png"  width="350px">
 
 * I leave everything else, and launch my instance
 
-<br>
+
 
 * Go to the instances page, I select my instance, and click on the `Connect` button:
-![](../screenshots/2024-07-12-08-14-02.png)
+   <details>
+   <summary>Screenshot</summary>
+   <img src="../screenshots/2024-07-12-08-14-02.png" width="4500px">
+   </details>
+
 * This opens up instructions on how to connect:
-![](../screenshots/2024-07-12-08-15-45.png)
+   <details>
+   <summary>Screenshot</summary>
+   <img src="../screenshots/2024-07-12-08-15-45.png" width="250px">
+   </details>
+
 * I open up bash where my pem file, and execute the following commands:
 ```sh
 $ chmod 400 "new-key-pair.pem"
@@ -36,4 +52,5 @@ ssh -i "new-key-pair.pem" ec2-user@ec2-11-111-111-11.eu-west-2.compute.amazonaws
 ```
 * I then get asked if I want to connect, and I confirm
 * I see a bird in the console which confirms I've connected
-![](../screenshots/2024-07-12-08-20-25.png)
+
+   <img src="../screenshots/2024-07-12-08-20-25.png" width="250px">

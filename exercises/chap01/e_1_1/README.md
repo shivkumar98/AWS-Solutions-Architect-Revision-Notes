@@ -9,27 +9,27 @@ to your new bucket. From the browser console, confirm that the file reached its 
 ## ✅ Solution ✅
 * I configured the AWS CLI in the command prompt using `aws configure`
 * I am asked to provide the following:
-```
-AWS Access Key ID 
-AWS Secret Access Key
-Default region name
-Default output format  
-```
+   ```yaml
+   AWS Access Key ID 
+   AWS Secret Access Key
+   Default region name
+   Default output format  
+   ```
 * I go to the IAM console in the broweser, I select my own user,
 * Under `Security Credentials`, I create a new Access Key
 * I provide these details
 * I list my existing buckets:
-```
-aws s3 ls
-```
+   ```yaml
+   aws s3 ls
+   ```
 
 * I create a new bucket:
-```
-C:\Users\Shiv>aws s3 mb s3://shivs-bucket
-make_bucket: shivs-bucket
-```
+   ```yaml
+   C:\Users\Shiv>aws s3 mb s3://shivs-bucket
+   make_bucket: shivs-bucket
+   ```
 * I then copy a file to this bucket
-```
-C:\Users\Shiv>aws s3 cp text.txt s3://shivs-bucket
-upload: .\text.txt to s3://shivs-bucket/text.txt
-```
+   ```yaml
+   C:\Users\Shiv>aws s3 cp text.txt s3://shivs-bucket
+   upload: .\text.txt to s3://shivs-bucket/text.txt
+   ```

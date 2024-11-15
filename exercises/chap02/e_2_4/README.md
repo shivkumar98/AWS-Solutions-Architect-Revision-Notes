@@ -10,19 +10,18 @@
 ## ✅ Solution ✅
 * I create a new EC2 instance
 * I SSH into my instance and then I touch the `test.txt` file
-```sh
-[ec2-user@ip-172-31-32-222 ~]$ touch test.txt
-[ec2-user@ip-172-31-32-222 ~]$ ls
-test.txt
-```
+   ```yaml
+   [ec2-user@ip-172-31-32-222 ~]$ touch test.txt
+   [ec2-user@ip-172-31-32-222 ~]$ ls
+   test.txt
+   ```
 * I stop my instance, and click on `Create image`:
 ![](../screenshots/2024-07-13-11-39-23.png)
 
-* I am shown the `Create image` wizard whichh taken a snapshot of the EBS volume:
-![](../screenshots/2024-07-13-11-41-00.png)
-* I name the image and click `Create image` button
+* I am shown the `Create image` wizard which takes a snapshot of the EBS volume:
+   <img src="../screenshots/2024-07-13-11-41-00.png" width="350px">
 
-<br>
+* I name the image and click `Create image` button
 
 * I launch a new instance, I select the `My AMIs` tab to select the snapshot I created
 * I launch the instance and confirm I still can see the file I created!

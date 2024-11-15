@@ -17,19 +17,20 @@
 * I upload a file with same name into root of bucket
 * I move the file into a folder called `/files`
 * I click on the file, and clicked on the `Versions` tab:
-![](../screenshots/2024-11-01-12-03-26.png)
 
-<br>
+   <img src="../screenshots/2024-11-01-12-03-26.png" width="350px">
+
 
 * I click on the `Management` tab on the bucket:
-![](../screenshots/2024-11-01-12-04-54.png)
+   
+   <img src="../screenshots/2024-11-01-12-04-54.png" width="350px">
 
 * I create a lifecycle rule with a name of `rule`
 * I set the filter type's prefix to `files/`
 
-![](../screenshots/2024-11-01-12-09-39.png)
+   <img src="../screenshots/2024-11-01-12-09-39.png" width="350px">
 
 * I check `Transition current versions of objects between storage classes`
 * I choose `Glacier Deep Archive` as the transition and 1 day for days after object creation
 
-![](../screenshots/2024-11-01-12-12-14.png)
+   <img src="../screenshots/2024-11-01-12-12-14.png" width="350px">

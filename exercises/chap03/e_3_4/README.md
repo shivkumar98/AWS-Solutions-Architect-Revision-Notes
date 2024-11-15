@@ -6,10 +6,10 @@
 3. Paste the static website endpoint into the URL field of a browser that's not logged into your AWS account and confirm that you can access
 
 * Note: you can also enable static website hosting from the AWS CLI using a variation of these two commands:
-```
-aws s3api put-bucket-acl --bucket my-bucket --acl public-read
-aws s3 website s3://my-bucket/ --index-document index.html\ --error-document error.html
-```
+   ```yaml
+   aws s3api put-bucket-acl --bucket my-bucket --acl public-read
+   aws s3 website s3://my-bucket/ --index-document index.html\ --error-document error.html
+   ```
    
 ## ✅ Solution ✅
 * I create a bucket called `shivs-coding-blog`
