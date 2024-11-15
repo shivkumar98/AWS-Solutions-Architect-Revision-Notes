@@ -13,10 +13,11 @@ Now pretend that your instance is nearly maxed out and change thhe instance type
 
 ## ✅ Solution ✅
 * I select the instance I created in Exercise 2.1, and click on the monitoring tab:
-![](../screenshots/2024-07-12-10-46-07.png)
+   <img src="../screenshots/2024-07-12-10-46-07.png" width="450px">
+   
 
 * I click on the `Instance state` dropdown, and click `Stop instance`:
-![](../screenshots/2024-07-12-10-48-02.png)
+   ![](../screenshots/2024-07-12-10-48-02.png)
 
 * I enable the `Termination protection` option
 * I restart the instance

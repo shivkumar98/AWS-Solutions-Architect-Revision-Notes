@@ -18,7 +18,9 @@
     - Peak duration: 1 hour, 53 minutes
   - EC2 Instance type: `f1.2xlarge`
 * I am presented with the following Payment options:
-![](../screenshots/2024-07-12-11-54-43.png)
+  
+   <img src="../screenshots/2024-07-12-11-54-43.png" width="350px">
+
 
 * The Savings Plans offers 940.39/month
 * This would be 11284.68 for the year
