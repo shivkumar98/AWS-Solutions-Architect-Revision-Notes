@@ -16,3 +16,5 @@
   4. FSx for NetApp ONTAP.
 * Lustre is an open sourced file distribution system built to give clusters of Linux servers access to high-performance filesystems for compute-intensive operations
 * FSx for Wildows File Server integrates SMG, NTFS and Microsoft Active Directory
+
+## 🟥 AWS Storag
