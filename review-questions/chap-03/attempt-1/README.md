@@ -76,17 +76,17 @@
 <hr>
 
 ## 🟧 Question 3
-❓❓
+❓ You have a publicly available file called `filename` stored in an S3 bucket names `bucketname`. Which of the following addresses will successfully retrieve the file using a web browser? ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. `s3.amazonaws.com/bucketname/filename`
+* B. `filename/bucketname.s3.amazonaws.com`
+* C. `s3://bucketname/filename`
+* D. `s3://filename/bucketname`
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
+* **C**
 
 * **CORRECR ANSWER:**
 
