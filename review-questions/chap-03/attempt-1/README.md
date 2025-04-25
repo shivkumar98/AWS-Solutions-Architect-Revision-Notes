@@ -57,17 +57,17 @@
 
 ## 🟧 Question 2
 
-❓❓
+❓ Your organisation expects to be storing and processing large volumes of data in many small increments. When considering S3 usability, you'll need to know whether you'll face any practical limitations in the use of AWS account resources. Which of the following will normally be available only in limited amounts? ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. PUT requests/month against an S3 bucket
+* B. The volume of data space available per S3 bucket
+* C. Account-wide S3 storage space
+* D. The number of S3 buckets within a single account.
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
+* **B**
 
 * **CORRECR ANSWER:**
 
