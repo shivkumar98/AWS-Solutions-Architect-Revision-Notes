@@ -34,17 +34,19 @@
 
 ## 🟧 Question 1
 
-❓❓
+❓ Your organisation runs Linux-based EC2 instances that all require low latency read/write access to a single set of files. Which of the following AWS services are your best choices? (CHOOSE TWO) ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. `AWS Storage Gateway`
+* B. `AWS S3`
+* C. `Amazon Elastic File System`
+* D. `AWS Elastic Block Store`
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
+* I don't think AWS Storage Gateway is correct
+* I would guess B and C
+* **B,C**
 
 * **CORRECR ANSWER:**
 
