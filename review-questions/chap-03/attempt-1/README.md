@@ -205,18 +205,18 @@
 <hr>
 
 ## 🟧 Question 9
-❓❓
+❓ Which of the following is the 12-month availability guarantee for the S3 Standard-IA class? ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. 99.99 percent
+* B. 99.9 percent
+* C. 99.999999999 percent
+* D. 99.5 percent
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* I believe it's D
+* **D**
 * **CORRECR ANSWER:**
 
 </details>
