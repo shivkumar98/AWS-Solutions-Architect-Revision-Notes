@@ -279,18 +279,18 @@
 <hr>
 
 ## 🟧 Question 13
-❓❓
+❓ Which of the following classes will usually make the most sense for long-term storage when included within a sequence of life cycle rules? ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. S3 Glacier Flexible Retrieval
+* B. Reduced Redundancy
+* C. S3 One Zone-IA
+* D. S3 Standard-IA
+
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **A**
 * **CORRECR ANSWER:**
 
 </details>
