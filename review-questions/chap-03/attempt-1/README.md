@@ -372,18 +372,17 @@
 <hr>
 
 ## 🟧 Question 18
-❓❓
+❓ How long will it take to retrieve an archive from Amazon Glacier Deep Archive? ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. 5 hours
+* B. 12 hours
+* C. 2 days
+* D. 1 week
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **B**
 * **CORRECR ANSWER:**
 
 </details>
