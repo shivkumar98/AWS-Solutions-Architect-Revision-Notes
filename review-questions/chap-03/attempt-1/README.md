@@ -114,7 +114,7 @@
 <hr>
 
 ## 🟧 Question 5
-❓ Your web application relies on data objects stored in AWS S3 buckets. Compliance with industry regulations requires that those objects be encrypted and that related events be closely tracked. Which combination of tools should you use? (Choose two) ❓
+❓ Your web application relies on data objects stored in AWS S3 buckets. Compliance with industry regulations requires that those objects be encrypted and that related events be closely tracked. Which combination of tools should you use? (CHOOSE TWO) ❓
 
 * A. Server-side encryption
 * B. Amazon S3-Managed Keys
@@ -135,7 +135,7 @@
 <hr>
 
 ## 🟧 Question 6 
-❓ You are engaged in a deep audit of the use of your AWS resources and you need to better understand the structure of your S3 server access logs. Which of the following operational details are likely to be included in S3 server access logs? (Choose three) ❓
+❓ You are engaged in a deep audit of the use of your AWS resources and you need to better understand the structure of your S3 server access logs. Which of the following operational details are likely to be included in S3 server access logs? (CHOOSE THREE) ❓
 
 * A. Source bucket name
 * B. Action requested
@@ -159,18 +159,23 @@
 <hr>
 
 ## 🟧 Question 7
-❓❓
+❓ You're accessing the level of durability you'll need to sufficiently ensure the long-term viability of a new web application you're planning. Which of the following risks are covered by S3's durability guarantee (CHOOSE TWO) ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. User misconfiguration
+* B. Account security breach
+* C. Infrastructure failure
+* D. Temporary service outages
+* E. Datacenter security breach
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* A - nope
+* B - nope
+* C - yes
+* D - maybe
+* E - yes
+* **C,E**
 * **CORRECR ANSWER:**
 
 </details>
