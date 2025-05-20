@@ -224,18 +224,18 @@
 <hr>
 
 ## 🟧 Question 10
-❓❓
+❓ Your application regularly writes data to an S3 bucket, but you're worried about the potential for data corruption as a result of conflicting concurrent operations. Which of the following data operations would not be subject to concerns about eventual consistency? ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. Operations immediately preceding the deletion of an existing object
+* B. Operations subsequent to the updating of an existing object
+* C. Operations subsequent to the deletion of an existing object
+* D. Operations subsequent to the creation of a new object
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* Total guess that it's C
+* **C**
 * **CORRECR ANSWER:**
 
 </details>
