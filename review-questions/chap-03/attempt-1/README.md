@@ -114,18 +114,20 @@
 <hr>
 
 ## 🟧 Question 5
-❓❓
+❓ Your web application relies on data objects stored in AWS S3 buckets. Compliance with industry regulations requires that those objects be encrypted and that related events be closely tracked. Which combination of tools should you use? (Choose two) ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. Server-side encryption
+* B. Amazon S3-Managed Keys
+* C. AWS KMS-Managed Keys
+* D. Client-side encryption
+* E. AWS End-to-End managed keys
 
 <details>
 <summary> 📝 My answer 📝 </summary>
-
-
+  
+* A is definitey true
+* Guessing E
+* **A,E**
 * **CORRECR ANSWER:**
 
 </details>
