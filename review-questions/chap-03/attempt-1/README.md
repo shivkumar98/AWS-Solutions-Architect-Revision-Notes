@@ -243,18 +243,17 @@
 <hr>
 
 ## 🟧 Question 11
-❓❓
+❓ You're worried that updates to the important data you store in S3 might incorrectly overwrite existing files. What must you do to protect objects in S3 buckets from being accientally lost ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. Nothing. S3 protects existing files by default.
+* B. Nothing. S3 saves older versions of your files by default.
+* C. Enable versioning
+* D. Enable file overwrite protection
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **C**
 * **CORRECR ANSWER:**
 
 </details>
