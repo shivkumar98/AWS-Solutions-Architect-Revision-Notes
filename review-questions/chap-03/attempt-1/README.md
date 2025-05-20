@@ -183,18 +183,21 @@
 <hr>
 
 ## 🟧 Question 8
-❓❓
+❓ Which of the following explains the difference in durability between S3's Standard-IA and S3 Intelligent-Tiering classes? ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. Standard-IA data has only 99.9% availability, whereas Intelligent-Tiering's availability depends on the data's current state.
+* B. Standard-IA data is heavily replicated but only within a single availablity zone, whereas Intelligent-Tiering data is only lightly replicated
+* C. Standard-IA data is replicated across AWS regions, whereas Intelligent-Tiering data is restricted to a single region.
+* D. Standard-IA data is automatically backed up to Amazon Glacier, whereas Intelligent-Tiering data remains within S3.
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* A - possible
+* B - don't think so
+* C - possible
+* D - false
+* **C**
 * **CORRECR ANSWER:**
 
 </details>
