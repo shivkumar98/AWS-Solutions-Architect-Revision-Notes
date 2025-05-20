@@ -335,18 +335,17 @@
 <hr>
 
 ## 🟧 Question 16
-❓❓
+❓ You don't want to open up the contents of an S3 bucket to anyone on the Internet, but you need to share the data with specific clients. Generating and then sending them a presigned URL is a perfect solution. Assuming you didn't explicitly❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. 24 hours
+* B. 3,600 seconds
+* C. 5 minutes
+* D. 360 seconds
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **C**
 * **CORRECR ANSWER:**
 
 </details>
