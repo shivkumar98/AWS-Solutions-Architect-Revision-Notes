@@ -317,18 +317,17 @@
 <hr>
 
 ## 🟧 Question 15
-❓❓
+❓ In the context of an S3 bucket policy, which of the following statements describe a principal? ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. The AWS service being defined (S3 in this case)
+* B. An origin resource that's given permission to alter an S3 bucket
+* C. The resource whose access is being defined
+* D. The user or entity to which access is assigned
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **A**
 * **CORRECR ANSWER:**
 
 </details>
