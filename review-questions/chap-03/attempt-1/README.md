@@ -353,19 +353,18 @@
 <hr>
 
 ## 🟧 Question 17
+❓ Which non-S3 AWS resources can improve the security and user experience of your S3-hosted static website? (CHOOSE TWO) ❓
 
-❓❓
-
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. AWS Certificate Manager
+* B. Elastic Compute Cloud (EC2)
+* C. Relational Database Service (RDS)
+* D. Route 53
+* E. AWS Key Management Service
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **B,D**
 * **CORRECR ANSWER:**
 
 </details>
