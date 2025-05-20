@@ -390,10 +390,10 @@
 <hr>
 
 ## 🟧 Question 19
-❓❓
+❓ You need a quick way to transfer very large (peta-scale) data archives to the cloud. Assuming your Internet connection isn't up to the task, which of the following will be both relatively fast and cost-effective? ❓
 
-* A.
-* B.
+* A. Direct Connect
+* B. Server Migration Service
 * C.
 * D.
 * E.
