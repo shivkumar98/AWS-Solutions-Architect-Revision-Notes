@@ -298,18 +298,18 @@
 <hr>
 
 ## 🟧 Question 14
-❓❓
+❓ Which of the following are recommended methods for providing secure and controlled access to your buckets? (CHOOSE TWO) ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. S3 access control lists (ACLs)
+* B. S3 bucket policies
+* C. IAM policies
+* D. Security groups
+* E. AWS Key Management Service
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **A,B**
 * **CORRECR ANSWER:**
 
 </details>
