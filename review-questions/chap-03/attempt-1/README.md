@@ -135,18 +135,23 @@
 <hr>
 
 ## 🟧 Question 6 
-❓❓
+❓ You are engaged in a deep audit of the use of your AWS resources and you need to better understand the structure of your S3 server access logs. Which of the following operational details are likely to be included in S3 server access logs? (Choose three) ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. Source bucket name
+* B. Action requested
+* C. Current bucket size
+* D. API bucket creation calls
+* E. Response status
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* A - yes
+* B - yes
+* C - no
+* D - no
+* E - yes
+* **A,B,E**
 * **CORRECR ANSWER:**
 
 </details>
