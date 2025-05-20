@@ -261,18 +261,17 @@
 <hr>
 
 ## 🟧 Question 12
-❓❓
+❓ Your S3 buckets contain many thousands of objects. Some of them could be moved to less expensive storage classes and others still require instant availability. How can you apply transitions between storage classes for only certain objects within an S3 bucket?  ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. By specifying particular prefixes when you define your life cycle rules.
+* B. This isn't possible. Life cycle rules must apply to all the objects in a bucket.
+* C. By specifying particular prefixes when you create the bucket.
+* D. By importing a predefined life cycle rule template
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* Total guess it's A
 * **CORRECR ANSWER:**
 
 </details>
