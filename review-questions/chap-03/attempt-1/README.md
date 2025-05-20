@@ -95,18 +95,18 @@
 <hr>
 
 ## 🟧 Question 4
-❓❓
+❓ If you want the files stored in an S3 bucket to be accessible using a familiar directory hierarchy system, you'll need to specify prefixes and delimiters. What are prefixes and delimiters? ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. A prefix is the name common to the objects you want to group, and a delimiter is the bar (|) character
+* B. A prefix is the DNS name that precedes the `amazonaws.com` domain, and a delimiter is the name you want to give your file directory
+* C. A prefix is the name common to the objects you want to group, and a delimiter is a forward slash character (/)
+* D. A prefix is the name common to the file type you want to identify, and a delimiter is a forward slash character (/)
+
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
-
+* **C**
 * **CORRECR ANSWER:**
 
 </details>
