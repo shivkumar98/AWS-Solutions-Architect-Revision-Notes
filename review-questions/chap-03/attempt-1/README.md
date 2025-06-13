@@ -48,7 +48,7 @@
 * I would guess B and C
 * **B,C**
 
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -69,7 +69,7 @@
 
 * **B**
 
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -88,7 +88,7 @@
 
 * **C**
 
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -107,7 +107,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * **C**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -128,7 +128,7 @@
 * A is definitey true
 * Guessing E
 * **A,E**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -152,7 +152,7 @@
 * D - no
 * E - yes
 * **A,B,E**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -176,7 +176,7 @@
 * D - maybe
 * E - yes
 * **C,E**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -198,7 +198,7 @@
 * C - possible
 * D - false
 * **C**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -217,7 +217,7 @@
 
 * I believe it's D
 * **D**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -236,7 +236,7 @@
 
 * Total guess that it's C
 * **C**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -254,7 +254,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * **C**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -272,7 +272,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * Total guess it's A
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -291,7 +291,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * **A**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -310,7 +310,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * **A,B**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -328,7 +328,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * **A**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -346,7 +346,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * **C**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -365,7 +365,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * **B,D**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -383,7 +383,7 @@
 <summary> 📝 My answer 📝 </summary>
 
 * **B**
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
@@ -403,26 +403,26 @@
 * I think Direct Connect would be expensive and long to do
 * **C**
 
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
 <hr>
 
 ## 🟧 Question 20
-❓❓
+❓ Your organisation runs Windows-based EC2 instances that all require low-latency read/write access to a single set of files. Which of the following AWS services is your best choice? ❓
 
-* A.
-* B.
-* C.
-* D.
-* E.
+* A. Amazon FSx for Windows File Server
+* B. Amazon FSx for Lustre
+* C. Amazon Elastic File System
+* D. Amazon Elastic Block Store
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
+* **A**
 
-* **CORRECR ANSWER:**
+* **CORRECT ANSWER:**
 
 </details>
 
