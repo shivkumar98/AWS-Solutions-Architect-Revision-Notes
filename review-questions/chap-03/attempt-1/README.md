@@ -394,13 +394,14 @@
 
 * A. Direct Connect
 * B. Server Migration Service
-* C.
-* D.
-* E.
+* C. Snowball
+* D. Storage Gateway
 
 <details>
 <summary> 📝 My answer 📝 </summary>
 
+* I think Direct Connect would be expensive and long to do
+* **C**
 
 * **CORRECR ANSWER:**
 
