@@ -91,9 +91,10 @@
    <details>
    <summary> 📝 My answer 📝 </summary>
 
-   * **C**
+   * **C**❌❌❌❌
 
-   * **CORRECT ANSWER:**
+   * **CORRECT ANSWER: A**
+   * A HTTP request needs a domain (`s3.amazonaws.com` here)
 
    </details>
 
