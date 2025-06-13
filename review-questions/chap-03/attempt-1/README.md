@@ -46,7 +46,7 @@
 
    * I don't think AWS Storage Gateway is correct
    * I would guess B and C
-   * **B,C**❌❌❌
+   * **B,C**❌❌❌❌
 
    * **CORRECT ANSWER: A,C** 
    * Storage Gateway and Amazon Elastic File System provide read/write access
@@ -70,9 +70,11 @@
    <details>
    <summary> 📝 My answer 📝 </summary>
 
-   * **B**
+   * **B**❌❌❌❌
 
-   * **CORRECT ANSWER:**
+   * **CORRECT ANSWER: D**
+   * There is no limit for number of item or space used by an S3 bucket
+   * You are limited by number of buckets per account by 100
 
    </details>
 
