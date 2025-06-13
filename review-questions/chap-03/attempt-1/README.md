@@ -46,9 +46,12 @@
 
    * I don't think AWS Storage Gateway is correct
    * I would guess B and C
-   * **B,C**
+   * **B,C**❌❌❌
 
-   * **CORRECT ANSWER:**
+   * **CORRECT ANSWER: A,C** 
+   * Storage Gateway and Amazon Elastic File System provide read/write access
+   * S3 does not offer low latency so B is wrong
+   * Block store is only for a single insatance so D is wrong
 
    </details>
 
