@@ -41,16 +41,16 @@
 * C. `Amazon Elastic File System`
 * D. `AWS Elastic Block Store`
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* I don't think AWS Storage Gateway is correct
-* I would guess B and C
-* **B,C**
+   * I don't think AWS Storage Gateway is correct
+   * I would guess B and C
+   * **B,C**
 
-* **CORRECT ANSWER:**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -64,14 +64,14 @@
 * C. Account-wide S3 storage space
 * D. The number of S3 buckets within a single account.
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* **B**
+   * **B**
 
-* **CORRECT ANSWER:**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -83,14 +83,14 @@
 * C. `s3://bucketname/filename`
 * D. `s3://filename/bucketname`
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* **C**
+   * **C**
 
-* **CORRECT ANSWER:**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -103,13 +103,13 @@
 * D. A prefix is the name common to the file type you want to identify, and a delimiter is a forward slash character (/)
 
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* **C**
-* **CORRECT ANSWER:**
+   * **C**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -122,15 +122,15 @@
 * D. Client-side encryption
 * E. AWS End-to-End managed keys
 
-<details>
-<summary> 📝 My answer 📝 </summary>
-  
-* A is definitey true
-* Guessing E
-* **A,E**
-* **CORRECT ANSWER:**
+   <details>
+   <summary> 📝 My answer 📝 </summary>
+   
+   * A is definitey true
+   * Guessing E
+   * **A,E**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -143,18 +143,18 @@
 * D. API bucket creation calls
 * E. Response status
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* A - yes
-* B - yes
-* C - no
-* D - no
-* E - yes
-* **A,B,E**
-* **CORRECT ANSWER:**
+   * A - yes
+   * B - yes
+   * C - no
+   * D - no
+   * E - yes
+   * **A,B,E**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -167,18 +167,18 @@
 * D. Temporary service outages
 * E. Datacenter security breach
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* A - nope
-* B - nope
-* C - yes
-* D - maybe
-* E - yes
-* **C,E**
-* **CORRECT ANSWER:**
+   * A - nope
+   * B - nope
+   * C - yes
+   * D - maybe
+   * E - yes
+   * **C,E**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -190,17 +190,17 @@
 * C. Standard-IA data is replicated across AWS regions, whereas Intelligent-Tiering data is restricted to a single region.
 * D. Standard-IA data is automatically backed up to Amazon Glacier, whereas Intelligent-Tiering data remains within S3.
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* A - possible
-* B - don't think so
-* C - possible
-* D - false
-* **C**
-* **CORRECT ANSWER:**
+   * A - possible
+   * B - don't think so
+   * C - possible
+   * D - false
+   * **C**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -212,14 +212,14 @@
 * C. 99.999999999 percent
 * D. 99.5 percent
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* I believe it's D
-* **D**
-* **CORRECT ANSWER:**
+   * I believe it's D
+   * **D**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -231,14 +231,14 @@
 * C. Operations subsequent to the deletion of an existing object
 * D. Operations subsequent to the creation of a new object
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* Total guess that it's C
-* **C**
-* **CORRECT ANSWER:**
+   * Total guess that it's C
+   * **C**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -250,13 +250,13 @@
 * C. Enable versioning
 * D. Enable file overwrite protection
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* **C**
-* **CORRECT ANSWER:**
+   * **C**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -268,13 +268,13 @@
 * C. By specifying particular prefixes when you create the bucket.
 * D. By importing a predefined life cycle rule template
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* Total guess it's A
-* **CORRECT ANSWER:**
+   * Total guess it's A
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -287,13 +287,13 @@
 * D. S3 Standard-IA
 
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* **A**
-* **CORRECT ANSWER:**
+   * **A**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -306,13 +306,13 @@
 * D. Security groups
 * E. AWS Key Management Service
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* **A,B**
-* **CORRECT ANSWER:**
+   * **A,B**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -324,13 +324,13 @@
 * C. The resource whose access is being defined
 * D. The user or entity to which access is assigned
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* **A**
-* **CORRECT ANSWER:**
+   * **A**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -342,13 +342,13 @@
 * C. 5 minutes
 * D. 360 seconds
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* **C**
-* **CORRECT ANSWER:**
+   * **C**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -361,13 +361,13 @@
 * D. Route 53
 * E. AWS Key Management Service
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* **B,D**
-* **CORRECT ANSWER:**
+   * **B,D**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -379,13 +379,13 @@
 * C. 2 days
 * D. 1 week
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* **B**
-* **CORRECT ANSWER:**
+   * **B**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -398,14 +398,14 @@
 * D. Storage Gateway
 
 <details>
-<summary> 📝 My answer 📝 </summary>
+   <summary> 📝 My answer 📝 </summary>
 
-* I think Direct Connect would be expensive and long to do
-* **C**
+   * I think Direct Connect would be expensive and long to do
+   * **C**
 
-* **CORRECT ANSWER:**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
 
@@ -417,13 +417,13 @@
 * C. Amazon Elastic File System
 * D. Amazon Elastic Block Store
 
-<details>
-<summary> 📝 My answer 📝 </summary>
+   <details>
+   <summary> 📝 My answer 📝 </summary>
 
-* **A**
+   * **A**
 
-* **CORRECT ANSWER:**
+   * **CORRECT ANSWER:**
 
-</details>
+   </details>
 
 <hr>
