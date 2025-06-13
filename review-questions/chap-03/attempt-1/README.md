@@ -12,7 +12,7 @@
 | 3          |       |
 | 4          |  ✅     |
 | 5          |       |
-| 6          |       |
+| 6          |  ✅     |
 | 7          |       |
 | 8          |       |
 | 9          |       |
@@ -160,8 +160,8 @@
    * C - no
    * D - no
    * E - yes
-   * **A,B,E**
-   * **CORRECT ANSWER:**
+   * **A,B,E**✅✅✅✅
+   * S3 does not track API calls - this is covered by AWS CloudTrail
 
    </details>
 
@@ -184,8 +184,8 @@
    * C - yes
    * D - maybe
    * E - yes
-   * **C,E**
-   * **CORRECT ANSWER:**
+   * **C,E**✅✅✅✅
+   * Temporary service outages are related to AVAILABILITY, not durability where data is lost
 
    </details>
 
@@ -206,8 +206,9 @@
    * B - don't think so
    * C - possible
    * D - false
-   * **C**
-   * **CORRECT ANSWER:**
+   * **C**❌❌❌❌
+   * **CORRECT ANSWER: A**
+   * Both Standard and intelligent tirering have same durability, the availability differs based on state
 
    </details>
 
