@@ -112,8 +112,8 @@
    <details>
    <summary> 📝 My answer 📝 </summary>
 
-   * **C**
-   * **CORRECT ANSWER:**
+   * **C**✅✅✅✅
+   * **CORRECT ANSWER: C**
 
    </details>
 
