@@ -10,7 +10,7 @@
 | 1          |       |
 | 2          |       |
 | 3          |       |
-| 4          |       |
+| 4          |  ✅     |
 | 5          |       |
 | 6          |       |
 | 7          |       |
@@ -113,7 +113,6 @@
    <summary> 📝 My answer 📝 </summary>
 
    * **C**✅✅✅✅
-   * **CORRECT ANSWER: C**
 
    </details>
 
@@ -133,8 +132,12 @@
    
    * A is definitey true
    * Guessing E
-   * **A,E**
-   * **CORRECT ANSWER:**
+   * **A,E**❌❌❌❌
+
+   * **CORRECT ANSWER:A, C**
+   * Objects in S3 are encrypted at rest automatically
+   * Amazon S3 managed keys lacks detailed accss logging, AWS KMS managed keys offers auditing with its integration with AWS CloudTrail
+   * AWS End-to-End managed keys is not a thing
 
    </details>
 
