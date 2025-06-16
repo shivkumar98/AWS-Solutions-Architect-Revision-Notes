@@ -21,4 +21,5 @@
 | Attempt | Date Complete                | Score (%) |
 |---      |----                          |--------|
 | [1](./chap-03/attempt-1/) | 16/06/2025 | 40 |
+| [2](./chap-03/attempt-2/) | 18/06/2025 | 90 |
 
