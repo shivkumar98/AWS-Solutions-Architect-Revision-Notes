@@ -17,3 +17,9 @@
    - `172.16.0.0 - 172.31.255.255` (172.16.0.0/12)
    - `192.168.0.0 - 192.168.255.255` (192.168.0.0/16)
 * If you plan to connect your VPC to another network, there shouldn't be any overlap fo rused IP addresses
+
+## 🟥 Secondary CIDR Blocks
+* A secondary CIDR block can be specified for a VPC after you've created it.
+* These blocks must come from either the same RFC 1918 address range as the primary OR publicly routable range, but must not overlap with the primary or other secondary blocks
+* E.g. if the VPC's PRIMARY CIDR is `172.16.0.0/16`, you may specify a secondary CIDR of `172.17.0.0/16` because it resides in the `172.16.0.0/12` range (`172.16.0.0-172.31.255.255`)
+* 
