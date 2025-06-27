@@ -21,5 +21,6 @@
 ## 🟥 Secondary CIDR Blocks
 * A secondary CIDR block can be specified for a VPC after you've created it.
 * These blocks must come from either the same RFC 1918 address range as the primary OR publicly routable range, but must not overlap with the primary or other secondary blocks
-* E.g. if the VPC's PRIMARY CIDR is `172.16.0.0/16`, you may specify a secondary CIDR of `172.17.0.0/16` because it resides in the `172.16.0.0/12` range (`172.16.0.0-172.31.255.255`)
-* 
+* E.g. if the VPC's PRIMARY CIDR is `172.16.0.0/16`, you may specify a secondary CIDR of `172.17.0.0/16` because it resides in the `172.16.0.0/12` range (`172.16.0.0-172.31.255.255`) - and you may not specify `192.168.0.0/16` as a secondary CIDR.
+* If you think you might ever need a secondary CIDR, be careful about your choice of primary CIDR
+* If you use `19.168.0.0/16` as primary, it can't be used as secondary CIDR using any of the other RFC 1918 ranges ⚠️
