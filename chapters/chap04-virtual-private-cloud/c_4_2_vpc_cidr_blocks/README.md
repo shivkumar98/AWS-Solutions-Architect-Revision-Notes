@@ -24,3 +24,14 @@
 * E.g. if the VPC's PRIMARY CIDR is `172.16.0.0/16`, you may specify a secondary CIDR of `172.17.0.0/16` because it resides in the `172.16.0.0/12` range (`172.16.0.0-172.31.255.255`) - and you may not specify `192.168.0.0/16` as a secondary CIDR.
 * If you think you might ever need a secondary CIDR, be careful about your choice of primary CIDR
 * If you use `19.168.0.0/16` as primary, it can't be used as secondary CIDR using any of the other RFC 1918 ranges ⚠️
+
+## 🟥 IPv6 CIDR Blocks
+* You can allow AWS to assign an `IPv6 CIDR` to your VPC
+* However you can not choose an arbritary IPv6, AWS assigns one of their choice upon request
+* This `IPv6 CIDR` will be a publicly routable prefix from the global unicast IPv6 address space, so all IPv6 addresses are reachable from the internet.
+
+* E.g., AWS may assign you the `CIDR 2600`: `1f18:2551:8900/56`
+* Note the prefix length is always `/56`
+* You can assing your own public IPv6 CIDR block to your VPC via BYOIP (bring your own IP address) feature.
+* If you want your `IPv6` addresses to be reachable via the Internet, you can advertise a prefix length as small as `/48` - otherwise smallest prefix length is `/56`
+
