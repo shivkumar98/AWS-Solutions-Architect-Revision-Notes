@@ -28,7 +28,7 @@
 
 * A subnet can't have multiple CIDRs like VPC can with a secondary CIDR.
 * However a subnet CIDR can be derived from both the primary and secondary of the VPC CIDR
-   * E.g. if your VPC hgas a primary CIDR of `172.16.0.0/16` and a secondary CIDR of `17.17.0.0/16`,
+   * E.g. if your VPC hgas a primary CIDR of `172.16.0.0/16` and a secondary CIDR of `17.17.0.0/16`, a subnet of `172.17.12.0/24` is permissable as it is derived from the secondary CIDR.
 
 ## 🟥 Availability Zones
 
