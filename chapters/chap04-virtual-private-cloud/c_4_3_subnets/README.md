@@ -31,5 +31,11 @@
    * E.g. if your VPC hgas a primary CIDR of `172.16.0.0/16` and a secondary CIDR of `17.17.0.0/16`, a subnet of `172.17.12.0/24` is permissable as it is derived from the secondary CIDR.
 
 ## 🟥 Availability Zones
+* A subnet can exist only within on AZ
+* While AZs in a AWS region are connected, they are designed so that a failure in one zone doesn' cause failure within another hence the subnet being only available in a singular AZ
+* Resilency of application can be achieved by creating two subnets each in a different AZ and spreading the instances in those AZs.
+  * E.g. you could have a subnet in `us-east-1a`, and another in `us-east-1b` where your 2 instances could reside.
+
+* I complete [Exercise 4.2 Create a New Subnet](../../../exercises/chap04/e_4_2/)
 
 ## 🟥 IPv6 CIDR Blocks
